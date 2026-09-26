@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400&family=IM+Fell+English+SC&family=Pirata+One&display=swap');
+
+@layer utilities {
+  .font-pirata { font-family: 'Pirata One', cursive !important; }
+  .font-fell { font-family: 'IM Fell English SC', serif !important; }
+  .font-cinzel { font-family: 'Cinzel', serif !important; }
+  .font-cormorant { font-family: 'Cormorant Garamond', serif !important; }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #09101a;
+  color: #e5b85c;
+  font-family: 'Cormorant Garamond', serif;
+  overflow-x: hidden;
+}
+/* --- 10X PREMIUM UPGRADES --- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Pirate-Themed Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #050a14;
+  border-left: 1px solid #2a1b0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #7a1c1c;
+  border: 1px solid #050a14;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b1c1c;
+}
+::selection {
+  background: #8b1c1c;
+  color: #ebd6ad;
+}

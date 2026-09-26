@@ -1,0 +1,5 @@
+﻿.chest-wrap { position: relative; width: 400px; cursor: pointer; perspective: 1000px; }
+.chest-shake { position: relative; width: 100%; }
+.chest-base, .chest-lid, .chest-lock { width: 100%; }
+.chest-lid { position: absolute; top: 0; left: 0; }
+.chest-lock { position: absolute; top: 0; left: 0; }

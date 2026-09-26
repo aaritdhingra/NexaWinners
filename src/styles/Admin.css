@@ -1,0 +1,6 @@
+﻿.admin { max-width: 800px; margin: 40px auto; color: #fff; }
+.admin-form { display: flex; flex-direction: column; gap: 10px; background: #0a1428; padding: 20px; margin-bottom: 20px; }
+.admin-form input, .admin-form textarea { padding: 10px; background: #050a18; border: 1px solid #3a2a15; color: #fff; }
+.admin-form button { padding: 10px; background: #c9a24a; color: #000; font-weight: bold; }
+.admin-table { width: 100%; text-align: left; border-collapse: collapse; }
+.admin-table td { padding: 10px; border-bottom: 1px solid #3a2a15; }

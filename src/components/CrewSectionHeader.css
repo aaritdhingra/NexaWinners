@@ -1,0 +1,141 @@
+.crew-header-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(860px, 100%);
+  margin: 10px auto 15px;
+}
+
+.crew-header-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crew-emblem {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 82px;
+  height: 82px;
+  z-index: 20;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.9));
+}
+
+.crew-plaque {
+  width: 100%;
+  height: 100px;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.55));
+}
+
+.gold .emblem-ring { stroke: #d4af37; fill: #0d0a06; stroke-width: 2.5px; }
+.gold .emblem-ring-thin { stroke: #f5e6ab; fill: none; opacity: 0.8; stroke-width: 1px; }
+.gold .emblem-line, .gold .side-ornament { stroke: #d4af37; fill: none; stroke-width: 1.5px; stroke-linecap: round; stroke-linejoin: round; }
+.gold .emblem-core, .gold .detail-diamond { fill: #d4af37; }
+.gold .plaque-outline { fill: rgba(10, 7, 4, 0.92); stroke: #d4af37; stroke-width: 2.5px; }
+.gold .plaque-inner { fill: none; stroke: #d4af37; stroke-width: 1px; opacity: 0.7; }
+.gold .crew-number { color: #d4af37; }
+.gold .crew-title { color: #f5e6ab; }
+.gold .crew-subtitle { background-color: #0c0906; border-color: #d4af37; }
+.gold .subtitle-text { color: #f5e6ab; }
+.gold .subtitle-wing { background-color: #d4af37; }
+
+.silver .emblem-ring { stroke: #c0c0c0; fill: #080c10; stroke-width: 2.5px; }
+.silver .emblem-ring-thin { stroke: #e2e8f0; fill: none; opacity: 0.8; stroke-width: 1px; }
+.silver .emblem-line, .silver .side-ornament { stroke: #c0c0c0; fill: none; stroke-width: 1.5px; stroke-linecap: round; stroke-linejoin: round; }
+.silver .emblem-core, .silver .detail-diamond { fill: #c0c0c0; }
+.silver .plaque-outline { fill: rgba(8, 12, 16, 0.92); stroke: #c0c0c0; stroke-width: 2.5px; }
+.silver .plaque-inner { fill: none; stroke: #cbd5e1; stroke-width: 1px; opacity: 0.7; }
+.silver .crew-number { color: #cbd5e1; }
+.silver .crew-title { color: #f1f5f9; }
+.silver .crew-subtitle { background-color: #080c10; border-color: #c0c0c0; }
+.silver .subtitle-text { color: #e2e8f0; }
+.silver .subtitle-wing { background-color: #cbd5e1; }
+
+.copper .emblem-ring { stroke: #cd7f32; fill: #120904; stroke-width: 2.5px; }
+.copper .emblem-ring-thin { stroke: #fdba74; fill: none; opacity: 0.8; stroke-width: 1px; }
+.copper .emblem-line, .copper .side-ornament { stroke: #cd7f32; fill: none; stroke-width: 1.5px; stroke-linecap: round; stroke-linejoin: round; }
+.copper .emblem-core, .copper .detail-diamond { fill: #cd7f32; }
+.copper .plaque-outline { fill: rgba(18, 9, 4, 0.92); stroke: #cd7f32; stroke-width: 2.5px; }
+.copper .plaque-inner { fill: none; stroke: #d97706; stroke-width: 1px; opacity: 0.7; }
+.copper .crew-number { color: #cd7f32; }
+.copper .crew-title { color: #ffd8a8; }
+.copper .crew-subtitle { background-color: #120904; border-color: #cd7f32; }
+.copper .subtitle-text { color: #ffd8a8; }
+.copper .subtitle-wing { background-color: #cd7f32; }
+
+.crew-header-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  z-index: 10;
+  padding-left: 5rem;
+  padding-right: 1rem;
+}
+
+.crew-number {
+  font-family: 'Cinzel Decorative', 'Pirata One', serif;
+  font-size: clamp(17px, 2.1vw, 26px);
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.crew-title {
+  max-width: 72%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Pirata One', 'Rye', serif;
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 7px rgba(0,0,0,0.9);
+}
+
+.crew-subtitle {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 5px 22px 4px;
+  margin-top: -10px;
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.62);
+}
+
+.subtitle-text {
+  font-family: 'Cinzel Decorative', 'Pirata One', serif;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+.subtitle-wing {
+  width: 18px;
+  height: 1px;
+  opacity: 0.85;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .crew-header-container { height: 82px; }
+  .crew-plaque { height: 82px; }
+  .crew-emblem { width: 66px; height: 66px; left: 0.5%; }
+  .crew-header-content { padding-left: 3.8rem; gap: 0.45rem; }
+  .crew-title { font-size: clamp(18px, 5vw, 28px); }
+  .crew-number { font-size: 15px; }
+  .crew-subtitle { padding: 4px 12px; }
+  .subtitle-text { font-size: 6px; letter-spacing: 0.12em; }
+}

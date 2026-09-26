@@ -1,0 +1,85 @@
+.scene-container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.header {
+  text-align: center;
+  margin-top: 40px;
+  z-index: 10;
+}
+.header h1 {
+  font-size: clamp(60px, 8vw, 110px);
+  color: #e5b85c;
+  text-shadow: 0 0 30px rgba(229, 184, 92, 0.4), 2px 4px 0 #000;
+  line-height: 1;
+}
+.header p {
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  color: #c4a977;
+  margin-top: 10px;
+}
+
+.chest-wrapper {
+  position: relative;
+  margin-top: 60px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 100%;
+}
+
+.cta-btn {
+  margin-top: 20px;
+  padding: 16px 40px;
+  font-size: 22px;
+  background: linear-gradient(180deg, #e5b85c, #b38531);
+  color: #1a1006;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 4px #1a1006, 0 10px 20px rgba(0,0,0,0.8);
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 30;
+  transition: transform 0.1s;
+}
+.cta-btn:active { transform: translateY(4px); }
+
+/* Bounty Board Layout */
+.bounty-board {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 60px 20px;
+  z-index: 10;
+}
+.slot-rank-1 { grid-column: span 12; display: flex; justify-content: center; margin-bottom: 20px; }
+.slot-rank-2, .slot-rank-3 { grid-column: span 6; display: flex; justify-content: center; }
+.slot-rank-other { grid-column: span 4; display: flex; justify-content: center; }
+
+@media (max-width: 1024px) {
+  .slot-rank-other { grid-column: span 6; }
+}
+@media (max-width: 768px) {
+  .slot-rank-2, .slot-rank-3, .slot-rank-other { grid-column: span 12; }
+}
+
+/* Fixed Center Popping Overlay */
+.card-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.8) 100%);
+}

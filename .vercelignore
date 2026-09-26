@@ -1,0 +1,4 @@
+node_modules/
+.vite/
+server/uploads/*
+!server/uploads/.gitkeep
