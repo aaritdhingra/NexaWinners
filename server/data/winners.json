@@ -2,40 +2,88 @@
   {
     "id": "rank-1",
     "rank": 1,
-    "teamName": "RED-HAIRED PIRATES",
+    "teamName": "YONKOOO",
     "bounty": "4,048,900,000",
-    "avatar": "/assets/poster.png",
+    "avatar": "/assets/winners/yoonkoo-team.jpg",
     "crew": [
-      { "name": "Shanks", "role": "Captain", "avatar": "/assets/poster.png" },
-      { "name": "Benn Beckman", "role": "First Mate", "avatar": "/assets/poster.png" },
-      { "name": "Lucky Roux", "role": "Combatant", "avatar": "/assets/poster.png" },
-      { "name": "Yasopp", "role": "Sniper", "avatar": "/assets/poster.png" }
+      {
+        "name": "Kanishk Kamboj",
+        "role": "Captain",
+        "avatar": "/assets/winners/kanishk-kamboj.jpg"
+      },
+      {
+        "name": "Ranbir Khurana",
+        "role": "First Mate",
+        "avatar": "/assets/winners/ranbir-khurana.jpg"
+      },
+      {
+        "name": "Lakshmi Deepak Kumar",
+        "role": "Combatant",
+        "avatar": "/assets/winners/lakshmi-deepak-kumar.jpg"
+      },
+      {
+        "name": "Saket Kumar Suman",
+        "role": "Sniper",
+        "avatar": "/assets/winners/saket-kumar-suman.jpg"
+      }
     ]
   },
   {
     "id": "rank-2",
     "rank": 2,
-    "teamName": "BLACKBEARD PIRATES",
+    "teamName": "THE CODE CORSAIRS",
     "bounty": "3,996,000,000",
-    "avatar": "/assets/poster.png",
+    "avatar": "/assets/winners/code-corsairs-team.jpg",
     "crew": [
-      { "name": "Marshall D. Teach", "role": "Captain", "avatar": "/assets/poster.png" },
-      { "name": "Shiryu", "role": "Commander", "avatar": "/assets/poster.png" },
-      { "name": "Van Augur", "role": "Sniper", "avatar": "/assets/poster.png" },
-      { "name": "Jesus Burgess", "role": "Helmsman", "avatar": "/assets/poster.png" }
+      {
+        "name": "Anshu Chowdhury",
+        "role": "Captain",
+        "avatar": "/assets/winners/anshu-chowdhury.jpg"
+      },
+      {
+        "name": "Prince Sharma",
+        "role": "Commander",
+        "avatar": "/assets/winners/prince-sharma.jpg"
+      },
+      {
+        "name": "Angel Gupta",
+        "role": "Sniper",
+        "avatar": "/assets/winners/angel-gupta.jpg"
+      },
+      {
+        "name": "Mohit Raj",
+        "role": "Helmsman",
+        "avatar": "/assets/winners/mohit-raj.jpg"
+      }
     ]
   },
   {
     "id": "rank-3",
     "rank": 3,
-    "teamName": "STRAW HAT PIRATES",
+    "teamName": "PIRATES OF CARRAIBEAN",
     "bounty": "3,000,000,000",
-    "avatar": "/assets/poster.png",
+    "avatar": "/assets/winners/pirates-of-carraibean-team.jpg",
     "crew": [
-      { "name": "Monkey D. Luffy", "role": "Captain", "avatar": "/assets/poster.png" },
-      { "name": "Roronoa Zoro", "role": "Swordsman", "avatar": "/assets/poster.png" },
-      { "name": "Vinsmoke Sanji", "role": "Cook", "avatar": "/assets/poster.png" },
-      { "name": "Nami", "role": "Navigator", "avatar": "/assets/poster.png" }
+      {
+        "name": "Piyush Bhalla",
+        "role": "Captain",
+        "avatar": "/assets/winners/piyush-bhalla.jpg"
+      },
+      {
+        "name": "Siddhant Singh Sambyal",
+        "role": "Swordsman",
+        "avatar": "/assets/winners/siddhant-singh-sambyal.jpg"
+      },
+      {
+        "name": "Shivang Singh Thakur",
+        "role": "Cook",
+        "avatar": "/assets/winners/shivang-singh-thakur.jpg"
+      },
+      {
+        "name": "Abhishek Thakur",
+        "role": "Navigator",
+        "avatar": "/assets/winners/abhishek-thakur.jpg"
+      }
     ]
   }
 ]

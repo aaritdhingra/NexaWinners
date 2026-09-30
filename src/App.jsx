@@ -7,18 +7,94 @@ import Footer from './components/Footer';
 import AdminPortal from './components/AdminPortal';
 
 const SEED_WINNERS = [
-  { id: "1", rank: 1, teamName: "Straw Hat Pirates", bounty: "5,608,800,000", crew: ["Luffy", "Zoro", "Sanji", "Nami"], logo: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80" },
-  { id: "2", rank: 2, teamName: "Heart Pirates", bounty: "3,000,000,000", crew: ["Law", "Bepo", "Jean Bart", "Shachi"], logo: "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80" },
-  { id: "3", rank: 3, teamName: "Kid Pirates", bounty: "3,000,000,000", crew: ["Kid", "Killer", "Heat", "Wire"], logo: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80" },
-  { id: "4", rank: 4, teamName: "Red Hair Pirates", bounty: "4,048,900,000", crew: ["Shanks", "Beckman", "Roo", "Yasopp"], logo: "https://images.unsplash.com/photo-1598371839696-5e5bb00b0f4d?w=600&auto=format&fit=crop&q=80" },
-  { id: "5", rank: 5, teamName: "Whitebeard Pirates", bounty: "5,046,000,000", crew: ["Newgate", "Marco", "Ace", "Jozu"], logo: "https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?w=600&auto=format&fit=crop&q=80" },
-  { id: "6", rank: 6, teamName: "Roger Pirates", bounty: "5,564,800,000", crew: ["Roger", "Rayleigh", "Gaban", "Crocus"], logo: "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?w=600&auto=format&fit=crop&q=80" },
-  { id: "7", rank: 7, teamName: "Blackbeard Pirates", bounty: "3,996,000,000", crew: ["Teach", "Burgess", "Augur", "Van Augur"], logo: "https://images.unsplash.com/photo-1505322022379-7c3353ee6291?w=600&auto=format&fit=crop&q=80" },
-  { id: "8", rank: 8, teamName: "Kuja Pirates", bounty: "1,659,000,000", crew: ["Hancock", "Sandersonia", "Marigold", "Marguerite"], logo: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80" },
-  { id: "9", rank: 9, teamName: "Firetank Pirates", bounty: "1,380,000,000", crew: ["Bege", "Vito", "Gotti", "Chiffon"], logo: "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=600&auto=format&fit=crop&q=80" },
-  { id: "10", rank: 10, teamName: "Sun Pirates", bounty: "1,100,000,000", crew: ["Fisher Tiger", "Jinbe", "Arlong", "Aladdin"], logo: "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?w=600&auto=format&fit=crop&q=80" }
+  {
+    id: "rank-1",
+    rank: 1,
+    teamName: "YONKOOO",
+    bounty: "4,048,900,000",
+    avatar: "/assets/winners/yoonkoo-team.jpg",
+    crew: [
+      {
+        name: "Kanishk Kamboj",
+        role: "Captain",
+        avatar: "/assets/winners/kanishk-kamboj.jpg"
+      },
+      {
+        name: "Ranbir Khurana",
+        role: "First Mate",
+        avatar: "/assets/winners/ranbir-khurana.jpg"
+      },
+      {
+        name: "Lakshmi Deepak Kumar",
+        role: "Combatant",
+        avatar: "/assets/winners/lakshmi-deepak-kumar.jpg"
+      },
+      {
+        name: "Saket Kumar Suman",
+        role: "Sniper",
+        avatar: "/assets/winners/saket-kumar-suman.jpg"
+      }
+    ]
+  },
+  {
+    id: "rank-2",
+    rank: 2,
+    teamName: "THE CODE CORSAIRS",
+    bounty: "3,996,000,000",
+    avatar: "/assets/winners/code-corsairs-team.jpg",
+    crew: [
+      {
+        name: "Anshu Chowdhury",
+        role: "Captain",
+        avatar: "/assets/winners/anshu-chowdhury.jpg"
+      },
+      {
+        name: "Prince Sharma",
+        role: "Commander",
+        avatar: "/assets/winners/prince-sharma.jpg"
+      },
+      {
+        name: "Angel Gupta",
+        role: "Sniper",
+        avatar: "/assets/winners/angel-gupta.jpg"
+      },
+      {
+        name: "Mohit Raj",
+        role: "Helmsman",
+        avatar: "/assets/winners/mohit-raj.jpg"
+      }
+    ]
+  },
+  {
+    id: "rank-3",
+    rank: 3,
+    teamName: "PIRATES OF CARRAIBEAN",
+    bounty: "3,000,000,000",
+    avatar: "/assets/winners/pirates-of-carraibean-team.jpg",
+    crew: [
+      {
+        name: "Piyush Bhalla",
+        role: "Captain",
+        avatar: "/assets/winners/piyush-bhalla.jpg"
+      },
+      {
+        name: "Siddhant Singh Sambyal",
+        role: "Swordsman",
+        avatar: "/assets/winners/siddhant-singh-sambyal.jpg"
+      },
+      {
+        name: "Shivang Singh Thakur",
+        role: "Cook",
+        avatar: "/assets/winners/shivang-singh-thakur.jpg"
+      },
+      {
+        name: "Abhishek Thakur",
+        role: "Navigator",
+        avatar: "/assets/winners/abhishek-thakur.jpg"
+      }
+    ]
+  }
 ];
-
 function App() {
   const [winners, setWinners] = useState(SEED_WINNERS);
   const [adminOpen, setAdminOpen] = useState(false);
