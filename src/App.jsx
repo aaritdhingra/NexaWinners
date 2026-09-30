@@ -17,22 +17,22 @@ const SEED_WINNERS = [
       {
         name: "Kanishk Kamboj",
         role: "Captain",
-        avatar: "/assets/winners/kanishk-kamboj.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Ranbir Khurana",
         role: "First Mate",
-        avatar: "/assets/winners/ranbir-khurana.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Lakshmi Deepak Kumar",
         role: "Combatant",
-        avatar: "/assets/winners/lakshmi-deepak-kumar.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Saket Kumar Suman",
         role: "Sniper",
-        avatar: "/assets/winners/saket-kumar-suman.jpg"
+        avatar: "/assets/winners/m.jpg"
       }
     ]
   },
@@ -46,22 +46,22 @@ const SEED_WINNERS = [
       {
         name: "Anshu Chowdhury",
         role: "Captain",
-        avatar: "/assets/winners/anshu-chowdhury.jpg"
+        avatar: "/assets/winners/2.jpg"
       },
       {
         name: "Prince Sharma",
         role: "Commander",
-        avatar: "/assets/winners/prince-sharma.jpg"
+        avatar: "/assets/winners/2.jpg"
       },
       {
         name: "Angel Gupta",
         role: "Sniper",
-        avatar: "/assets/winners/angel-gupta.jpg"
+        avatar: "/assets/winners/2.jpg"
       },
       {
         name: "Mohit Raj",
         role: "Helmsman",
-        avatar: "/assets/winners/mohit-raj.jpg"
+        avatar: "/assets/winners/2.jpg"
       }
     ]
   },
@@ -75,22 +75,22 @@ const SEED_WINNERS = [
       {
         name: "Piyush Bhalla",
         role: "Captain",
-        avatar: "/assets/winners/piyush-bhalla.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Siddhant Singh Sambyal",
         role: "Swordsman",
-        avatar: "/assets/winners/siddhant-singh-sambyal.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Shivang Singh Thakur",
         role: "Cook",
-        avatar: "/assets/winners/shivang-singh-thakur.jpg"
+        avatar: "/assets/winners/m.jpg"
       },
       {
         name: "Abhishek Thakur",
         role: "Navigator",
-        avatar: "/assets/winners/abhishek-thakur.jpg"
+        avatar: "/assets/winners/m.jpg"
       }
     ]
   }
